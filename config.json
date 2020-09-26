@@ -22,7 +22,7 @@
 		"mongoose": "*"
 	},
 	"user": {
-		"pages": "login sign reset save",
+		"pages": "login sign reset save /",
 		"is": {
 			"admin": "ceo@webart.work"
 		},
