@@ -1,0 +1,157 @@
+.aside{
+	width: 220px;
+	background-color:#F8F8F8;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+}
+.aside__manu{
+	padding-top: 300px;
+
+}
+.manu__list{
+	list-style-type: none;
+
+
+	.manu__item +.manu__item{
+		padding-top: 20px;
+
+
+
+	}
+	.manu__link-active{
+		font-weight: 600;
+
+	}
+
+	.manu__link{
+		font-weight: 150;
+
+
+	}
+}
+
+.container{
+	width: 75%;
+	padding-left: 100px;
+
+}
+.top__btn{
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 20px;
+	outline: none;
+	border:none;
+	font-size: 20px;
+	line-height: 40px;
+}
+.one__btn{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: 	#fff;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+
+
+}
+
+.two__btn{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: 	#A9A9A9;
+	color: #fff;
+	text-align: center;
+	margin-left: 20px;
+
+
+}
+.page__title{
+	display: flex;
+	flex-direction: column;
+	padding-top: 100px;
+
+}
+.title{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 40px;
+
+
+}
+
+.sub__title{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 30px;
+	line-height: 40px;
+
+
+}
+
+.page__content{
+	
+	padding-top: 100px;
+	flex-wrap: wrap;
+
+	.сontent__item{
+		display: flex;
+		justify-content: space-between;
+
+
+	}
+	.item__container{
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.number__item-one{
+		color: #00C;
+		font-family: Roboto;
+		font-size: 28px;
+		font-weight: 800;
+	}
+	.number__item-two{
+		color: #00C;
+		font-family: Roboto;
+		font-size: 28px;
+		font-weight: 800;
+	}
+	.number__item-three{
+		color: red;
+		font-family: Roboto;
+		font-size: 28px;
+		font-weight: 800;
+	}
+	.number__item-four{
+		color: 	#FF00FF;
+		font-family: Roboto;
+		font-size: 28px;
+		font-weight: 800;
+	}
+
+	.number__item-five{
+		color: #ee760c;
+		font-family: Roboto;
+		font-size: 28px;
+		font-weight: 800;
+	}
+
+
+
+	.content__title-item{
+		font-family: Roboto;
+		font-size: 30px;
+		font-weight: 100;
+	}
+
+}
